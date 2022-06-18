@@ -41,16 +41,13 @@ function TodoList() {
   };
 
   return (
-    <>
       <h1>What's the Plan for Today?</h1>
       <TodoForm onSubmit={addTodo} />
       <Todo
         todos={todos}
         completeTodo={completeTodo}
         removeTodo={removeTodo}
-        updateTodo={updateTodo}
-      />
-    </>
+        updateTodo={updateTodo} />
   );
 }
 
